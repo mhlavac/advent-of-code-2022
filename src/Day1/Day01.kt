@@ -1,5 +1,4 @@
-// Day1.txt is expected as an input file
-import java.io.File
+package Day1// Day1.txt is expected as an input file
 
 fun main() {
     val input = readInput("Day1")

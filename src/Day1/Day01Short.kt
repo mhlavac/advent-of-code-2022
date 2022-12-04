@@ -1,8 +1,8 @@
-// Day1.txt is expected as an input file
+package Day1// Day1.txt is expected as an input file
 import java.io.File
 
 fun main() {
-    val elfs = File("src", "Day1.txt").readText().split("\n\n").map { elf ->
+    val elfs = File("src", "Day1/Day1.txt1.txt").readText().split("\n\n").map { elf ->
         elf.split("\n").sumOf { it.toIntOrNull() ?: 0 }
     }.sortedDescending()
 
